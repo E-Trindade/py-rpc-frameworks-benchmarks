@@ -1,0 +1,52 @@
+name: dsid
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2018.03.07=0
+  - certifi=2018.4.16=py36_0
+  - libedit=3.1.20170329=h6b74fdf_2
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=7.2.0=hdf63c60_3
+  - libstdcxx-ng=7.2.0=hdf63c60_3
+  - ncurses=6.1=hf484d3e_0
+  - openssl=1.0.2o=h20670df_0
+  - pip=10.0.1=py36_0
+  - python=3.6.6=hc3d631a_0
+  - readline=7.0=ha6073c6_4
+  - setuptools=39.2.0=py36_0
+  - sqlite=3.24.0=h84994c4_0
+  - tk=8.6.7=hc745277_3
+  - wheel=0.31.1=py36_0
+  - xz=5.2.4=h14c3975_4
+  - zlib=1.2.11=ha838bed_2
+  - pip:
+    - amqp==1.4.9
+    - anyjson==0.3.3
+    - awsebcli==3.12.4
+    - blessed==1.14.2
+    - cement==2.8.2
+    - chardet==3.0.4
+    - dockerpty==0.4.1
+    - docopt==0.6.2
+    - enum-compat==0.0.2
+    - eventlet==0.21.0
+    - greenlet==0.4.13
+    - idna==2.7
+    - kombu==3.0.37
+    - mock==2.0.0
+    - path.py==11.0.1
+    - pathspec==0.5.5
+    - pbr==4.0.4
+    - pyyaml==3.12
+    - requests==2.19.1
+    - semantic-version==2.5.0
+    - six==1.11.0
+    - tabulate==0.7.5
+    - termcolor==1.1.0
+    - urllib3==1.23
+    - wcwidth==0.1.7
+    - websocket-client==0.47.0
+    - werkzeug==0.14.1
+    - wrapt==1.10.11
+prefix: /usr/local/bin/miniconda3/envs/dsid
+
