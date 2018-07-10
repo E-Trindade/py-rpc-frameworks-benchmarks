@@ -24,3 +24,5 @@ $ python grpc_client.py
 ```
 
 Os arquivos usados para gerar o código do gRPC se encontra na pasta grpc/protos
+
+O código fonte do projeto também encontra-se em https://github.com/E-Trindade/py-rpc-frameworks-benchmarks
