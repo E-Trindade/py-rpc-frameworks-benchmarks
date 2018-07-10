@@ -1,5 +1,0 @@
-cliente.tempo = x
-cliente.chamada()
->server.chamada(){ var tempo = y}
-cliente.pegaTempo()
->server.tomaTempo(){return tempo}

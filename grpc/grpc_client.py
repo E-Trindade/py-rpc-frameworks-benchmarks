@@ -1,18 +1,3 @@
-# Copyright 2015 gRPC authors.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-"""The Python implementation of the GRPC helloworld.Greeter client."""
-
 from __future__ import print_function
 
 import grpc
@@ -33,25 +18,6 @@ def run():
     stub = functions_pb2_grpc.EpFunctionsStub(channel)
     from datetime import datetime
     print (str(datetime.now())) 
-
-
-def timerfunc(func):
-    """
-    A timer decorator
-    """
-    def function_timer(*args, **kwargs):
-        """
-        A nested function for timing other functions
-        """
-        start = time.time()
-        value = func(*args, **kwargs)
-        end = time.time()
-        runtime = end - start
-        msg = "The runtime for {func} took {time} seconds to complete"
-        print(msg.format(func=func.__name__,
-                         time=runtime))
-        return value
-    return function_timer
 
 emp = functions.Employee()
 
@@ -89,4 +55,4 @@ def run_benchmark():
 if __name__ == '__main__':
     run()
     run_benchmark()
-  
+
